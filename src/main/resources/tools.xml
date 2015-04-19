@@ -1,0 +1,12 @@
+<tools>
+    <tool id="job_history" title="Job History">
+
+        <description>Displays jobs execution history timeline</description>
+        <parameters>
+            <parameter name="p_server"   title="Repository Server"   type="string" required="true" />
+            <parameter name="p_database" title="Repository Database" type="string" required="true" />
+        </parameters>
+
+        <output  script="job_history.groovy" type="html" />
+    </tool>
+</tools>
